@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="form">
+        <table>
+            <div id="form-input">
+
+                <h1>Registration form</h1>
+
+                <div id="name-input">
+                   <p>Your name</p>
+                   <input type="text" id="name" placeholder="Enter your name">
+                   <p id="name-error"></p>
+                </div>
+
+                <div id="email-input">
+                    <p>Your Email</p>
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <p id="email-error"></p>
+                 </div>
+
+                 <div id="password-input">
+                    <p>Your password</p>
+                    <input type="text" id="password" placeholder="Enter your password">
+                    <p id="password-error"></p>
+                 </div>
+
+                  <div id="terms">
+                    <input type="checkbox" id="checkbox">I accept the <a href="#">Terms and Conditions</a>
+                  </div>
+                  
+                  <button id="submit" type="submit">Submit</button>
+            </div>
+        </table>
+    </form>
+    <script src="./formscript.js"></script>
+</body>
+</html>
